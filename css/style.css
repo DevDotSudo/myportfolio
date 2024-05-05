@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap'); /* SEDAN SC FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap'); /* POETSEN ONE FONT */
+
+:root {
+    --primary-color: rgb(34, 40, 49);
+    --secondary-color: rgb(49, 54, 63);
+    --third-color: rgb(118, 171, 174);
+    --fourth-color: rgb(238, 238, 238);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sedan SC', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-area {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    background-color: var(--secondary-color);
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11vh;
+    width: 100%;
+}
+
+.nav-section-padding {
+    padding: 3.5rem 8rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0px 0px 0px rgb(118, 171, 174);
+}
+
+.list-menu li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px;
+    text-wrap: nowrap;
+}
+
+.list-menu li a:hover {
+    color: var(--third-color);
+    transition: all 500ms ease-in;
+}
+
+
+.home-section {
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    color: rgb(238, 238, 238);
+    height: auto;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.welcome-message {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: nowrap;
+    justify-content: space-around;
+    height: 270px;
+}
+
+.my-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid rgb(238, 238, 238);
+    align-self: center;
+    filter: drop-shadow(0px 0px 16px rgb(18, 28, 32));
+}
+
+.welcome-box {
+    position: relative;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-media-icons ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid rgb(238, 238, 238);
+    margin: 0 10px;
+    margin-bottom: 80px;
+}
+
+.social-media-icons ul li:hover {
+    transition: all 300ms ease-out;
+    background-color: rgb(118, 171, 174);
+}
+
+.gradient-title{
+    color: var(--third-color);
+}
+
+.about-section {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 850px;
+    height: auto;
+    align-items: center;
+}
+
+.about-section .left-about-content {
+    margin: 4rem;
+} 
+
+.about-section .right-about-content {
+    margin: 4rem;
+    text-wrap: wrap;
+}
+
+.about-section .image-container img {
+    height: 300px;
+    padding: 25px;
+}
+
+

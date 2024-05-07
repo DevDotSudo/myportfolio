@@ -1,3 +1,20 @@
+@media screen and (max-width:1120px){
+    .info-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-container .right-about-content {
+        width: 75%;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 1020px) {
     .nav-section-padding {
         padding: 4rem;
@@ -65,5 +82,34 @@
 
     .hamburger-menu.open span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-container .right-about-content {
+        align-items: center;
+        width: 75%;
+        font-size: 1rem;
+    }
+
+    
+    .info-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-section .image-container img {
+        height: 150px;
+        width: 150px;
+        margin-top: 50px;
+    }
+
+    .welcome-message {
+        font-size: 2.5rem;
     }
 }

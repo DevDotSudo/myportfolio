@@ -159,6 +159,10 @@
         font-size: 1.5rem;
     }
 
+    .contact-container {
+        padding: 0;
+    }
+    
 }
 
 @media screen and (max-width: 526px) {
@@ -187,7 +191,7 @@
     }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 480px) {
     .info-container {
         width: 100%;
     }
@@ -212,5 +216,23 @@
 
     .projects-container .title-holder {
         font-size: 1.5rem;
+    }
+
+    .contact-area .contact-title {
+        font-size: 23px;
+    }
+
+    .contact-left .contact-form .submit-button {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and(max-width: 250px) {
+    .contact-area .contact-title {
+        font-size: 1rem;
+    }
+
+    .contact-left .contact-form .submit-button {
+        padding: 15px 25px;
     }
 }

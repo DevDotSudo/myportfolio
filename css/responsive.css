@@ -170,11 +170,11 @@
     }
 
     .about-container{
-        height: 550px;
+        height: 600px;
     }
 
     .about-container .about-right {
-        height: 450px;
+        height: 550px;
     }
 
     .about-right .about-title {
@@ -193,12 +193,12 @@
     }
 
     .about-container{
-        height: 550px;
+        height: 650px;
         margin: 0 50px;
     }
 
     .about-container .about-right {
-        height: 350px;
+        height: 400px;
     }
 
     .about-right .about-title {
@@ -208,5 +208,9 @@
     .about-right .about-me {
         text-wrap: wrap;
         font-size: .7rem;
+    }
+
+    .projects-container .title-holder {
+        font-size: 1.5rem;
     }
 }

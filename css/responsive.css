@@ -2,9 +2,89 @@
     .nav-section-padding {
         padding: 4rem;
     }
+
+    .about-container .about-right {
+        width: 550px;
+    }
+
+    .about-title {
+        font-size: 2rem;
+    }
+
+    .about-me {
+        font-size: 1rem;
+        margin-top: -20px;
+    }
+
+    .info-container {
+        margin-top: -20px;
+    }
+
+    .info-container .column li {
+        font-size: .75rem;
+    }
 }
 
+@media screen and (max-width: 877px) {
+    .about-me {
+        font-size: .75rem;
+    }
+
+    .about-container{
+        height: 250px;
+    }
+    .info-container .column li {
+        font-size: .65rem;
+    }
+
+    .about-container .about-right {
+        height: 250px;  
+    }
+
+    .button-container .my-projects {
+        padding: 5px 10px;
+    }
+
+    .button-container .my-cv {
+        padding: 5px 20px;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2em;
+        height: 450px;
+    }
+
+    .about-image-container img {
+        height: 180px;
+        width: 180px;
+    }
+
+    .about-container .about-right {
+        height: 550px;
+        margin: 0 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-right .button-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
+
     .hero-area {
         height: 100vh;
     }
@@ -77,5 +157,56 @@
 
     .welcome-message {
         font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 526px) {
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        line-height: 2;
+    }
+
+    .about-container{
+        height: 550px;
+    }
+
+    .about-container .about-right {
+        height: 450px;
+    }
+
+    .about-right .about-title {
+        font-size: 1.8rem;
+    }
+
+    .about-right .about-me {
+        text-wrap: wrap;
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .info-container {
+        width: 100%;
+    }
+
+    .about-container{
+        height: 550px;
+        margin: 0 50px;
+    }
+
+    .about-container .about-right {
+        height: 350px;
+    }
+
+    .about-right .about-title {
+        font-size: 1.8rem;
+    }
+
+    .about-right .about-me {
+        text-wrap: wrap;
+        font-size: .7rem;
     }
 }

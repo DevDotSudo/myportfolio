@@ -451,6 +451,7 @@ a {
 .contact-left .contact-form textarea.message-area {
     height: 250px;
     width: 100%;
+    padding: 6px;
 }
 
 .contact-right .contact-right-text .bi {
